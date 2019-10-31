@@ -16,13 +16,12 @@
     padding: 10 !important;
 }
 
-/* 
+ 
 .navbar-brand img{
     height: 40px;
     padding-left: 20px;
-    sizing for the logo image
 }
-*/
+
 
 .navbar-nav li{
     padding: 0 10px;
@@ -141,7 +140,7 @@ background-image: url( blur.jpg);
   color: #74F2CE;
 }
 
-#aboutUs{
+#aboutUs, #contactus{
 
     padding: 80px 0;
 }
@@ -170,6 +169,8 @@ background-image: url( blur.jpg);
 
 .learn, .designmethod, .devenv{
         margin: 30px;
+        margin-left: 60px;
+    margin-right: 60px;
         font-family: 'Nunito', sans-serif;
 }
 
@@ -177,12 +178,17 @@ background-image: url( blur.jpg);
     padding-left: 5%;
 }
 
-h3, h5, .team{
+h3, h5, h6, .team{
     font-family: 'Patua One', cursive;
+    color: #1790a8;
 }
 
+p{
+    font-family: 'Nunito', sans-serif;
+}
 .teamdescription{
     font-family: 'Nunito', sans-serif;
+    text-align: center;
 }
 
 .name{
@@ -192,5 +198,13 @@ h3, h5, .team{
 
 .role, .about{
     margin: 5px;
-        font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+.role{
+    color: #1790a8;
+}
+
+#contactus{
+    text-align: center;
 }
