@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background: rgb(58,128,100);
+    background: linear-gradient(90deg, rgba(58,128,100,1) 0%, rgba(23,144,168,1) 100%);
+    padding: 10 !important;
+}
+
+/* 
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+    sizing for the logo image
+}
+*/
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #74F2CE !important;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars{
+    color: #74F2CE;
+    font-size: 30px !important;
+}
+
+.navbar-toggler{
+    outline: none;
+}
+
+#landing{
+    background: rgb(58,128,100);
+background-image: url( blur.jpg);
+    color: floralwhite;
+    padding-top: 2%;
+}
+
+.ltitle{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: 100px;
+    font-family: 'Fredoka One', cursive;
+    padding-top: 15%;
+    
+}
+
+.lslogan{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+
+.apple, .playstore{
+    width: 160px;
+    margin: 10px;
+}
+
+.wave{
+    width: 100%;
+}
+
+#description{
+    background-color: #F4FAFF;
+    padding: 80px 0;
+}
+
+#description .lrnmre{
+    padding: 8px 25px;
+    box-shadow: none;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(58,128,100,1) 0%, rgba(23,144,168,1) 100%);
+
+}
+
+.ims{
+    padding-bottom: 5%;
+}
+
+.teamdescription{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.carousel-item{
+    justify-content: center;
+    padding-top: 5%;
+    text-align: center;
+    padding-bottom: 5%;
+    margin-left: 17%;
+}
+
+.user_image{
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.6rem;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 2rem auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #74F2CE;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #74F2CE;
+}
+
+#aboutUs{
+
+    padding: 80px 0;
+}
+
+.team{
+    text-align: center;
+
+}
+
+.services{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    width: 300px;
+    margin: 0px auto;
+    
+}
+
+.list{
+    text-align: left;
+}
+
+#learnmore{
+    background-color: #F4FAFF;
+    padding: 80px 0;
+}
+
+.learn, .designmethod, .devenv{
+        margin: 30px;
+        font-family: 'Nunito', sans-serif;
+}
+
+.dsdm{
+    padding-left: 5%;
+}
+
+h3, h5, .team{
+    font-family: 'Patua One', cursive;
+}
+
+.teamdescription{
+    font-family: 'Nunito', sans-serif;
+}
+
+.name{
+    font-family: 'Patua One', cursive;
+    font-size: 25px;
+}
+
+.role, .about{
+    margin: 5px;
+        font-family: 'Nunito', sans-serif;
+}
