@@ -140,7 +140,7 @@ background-image: url( blur.jpg);
   color: #74F2CE;
 }
 
-#aboutUs, #contactus{
+#aboutUs, #documentation{
 
     padding: 80px 0;
 }
@@ -162,7 +162,7 @@ background-image: url( blur.jpg);
     text-align: left;
 }
 
-#learnmore{
+#learnmore, #contactus{
     background-color: #F4FAFF;
     padding: 80px 0;
 }
@@ -207,4 +207,31 @@ p{
 
 #contactus{
     text-align: center;
+}
+
+.column {
+    float: left;
+  align-content: center;  
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button {
+  background-color: #74F2CE;
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 25px; 
+  font-family: 'Nunito', sans-serif;    
 }
