@@ -44,6 +44,12 @@
     outline: none;
 }
 
+.navtranslate{
+    color: #74F2CE !important;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
 #landing{
     background: rgb(58,128,100);
 background-image: url( blur.jpg);
